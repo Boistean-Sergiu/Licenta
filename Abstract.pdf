@@ -1,0 +1,7 @@
+Abstract
+
+Fișa aceasta conține procesul de design și implementare a unei aplicații folosind framework-ul Angular și ASP .NET framework. Aplicația a fost dezvoltată in C# iar scopul principal al aplicației este de a administra propria biblioteca de jocuri, cu posibilitatea de a impartași propria experiență cu alți useri. Aplicația este alcatuită din două părți principale: serviciul REST API pe partea de server, și o aplicație Angular pe partea de client.
+
+Back-end-ul și front-end-ul aplicației au fost dezvoltate în paralel. Ele comunică prin protocoale HTTP folosind stilul arhitectural REST. Serverul asigură un mediu sigur în c orice prim access are nevoie de o înregistrare pentru autentificările necesare la accessările viitoare, iar datele utilizatorului și a aplicației în general sunt depozitate într-o bază de date MS SQL. Aplicația font-end prevede o interfață pentru user prietenoasă, în care acesta poate accesa tot conținutul aplicației și adăuga, modifica și șterge informațiile referitoare la user-ul respectiv.
+
+Aplicația a fost creată folosind cele mai bune practici pentru Angular și ASP .NET framework iar sistemul asigură funționalitățile desiderate pentru creare, modificarea si împărtășirea unei liste de jocuri de către utilizator.
